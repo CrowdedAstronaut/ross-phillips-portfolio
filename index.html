@@ -67,14 +67,8 @@
       <div class="about-me">
         <img
           class="ross-logo"
-          src="images/Ross Phillips-logo.png"
+          src="images/ross-phillips-logo.svg"
           alt="my name is Ross Phillips, and I'm a software developer"
-        />
-
-        <img
-          class="ross-bitmoji"
-          src="images/ross.png"
-          alt=""
         />
         <p class="mission-statement">
           I am a full stack developer with passions for
@@ -189,58 +183,99 @@
           </tr>
         </table>
       </div>
-      <section class="projects">
-        <h2>Projects</h2>
-        <ul class="page-links">
-          <li>
-            <img
-              class="screenshot"
-              src="./images/simon.png"
-              alt="this is a screenshot of my devography project"
-            />
-            <br />
-            <a
-              href="https://crowdedastronaut.github.io/Simon-2021/"
-              aria-label="Check out my project Simon 1997"
-              target="_blank"
-              alt="github-profile"
-              >Simon1997</a
-            >
-          </li>
-          <li>
-            <img
-              class="screenshot"
-              src="./images/NASA.png"
-              alt="this is a screenshot of my devography project"
-            />
-            <br />
-            <a
-              href="https://whats-up-at-nasa.netlify.app/"
-              aria-label="Check out my project Whats Up At NASA"
-              target="_blank"
-              >Whats-Up-At-NASA</a
-            >
-          </li>
-          <li>
-            <img
-              class="screenshot"
-              src="./images/devography.png"
-              alt="this is a screenshot of my devography project"
-            />
-            <br />
-            <a
-              href="https://devography.netlify.app/"
-              aria-label="Check out my project devOgraphy"
-              >devOgraphy</a
-            >
-          </li>
-        </ul>
-      </section>
+      <div class="projects">
+        <div class="project-one">
+          <img
+            src="./images/allcity-screenshot.png"
+            alt="allcity screenshot"
+            class="screenshot zoom allcityscreenshot"
+          />
+          <h4>All City</h4>
+          <p>
+            Graffiti and Street Art focused social media
+            application akin to Instagram, built using React
+            Native and live on TestFlight. This mobile
+            application allows users to check out graffiti
+            and street art from around the globe, post their
+            own pictures, as well as like and comment on
+            their favorite pieces. The API was built using
+            Django and deployed to Heroku.
+          </p>
+          <a
+            href="https://github.com/All-City-All-Stars/allcity"
+            target="_blank"
+            class="projectlinks"
+            ><button class="bn29">
+              Application Repo
+            </button></a
+          >
+          <a
+            href="https://github.com/All-City-All-Stars/allcity_django"
+            target="_blank"
+            class="projectlinks"
+            ><button class="bn29">API Repo</button></a
+          >
+        </div>
+        <div class="project-two">
+          <img
+            src="./images/devography.png"
+            alt="devography screenshot"
+            class="screenshot zoom"
+          />
+          <h4>devOgraphy</h4>
+          <p>
+            devOgraphy is a working, interactive, full-stack
+            application that receives data from a custom API
+            that we designed. The app allows users to learn
+            more about programming languages, their icons,
+            their authors, and their creation date.
+          </p>
+          <a
+            href="https://devography.netlify.app/"
+            target="_blank"
+            class="projectlinks"
+            ><button class="bn29">Live Site</button></a
+          >
+          <a
+            href="https://github.com/Devography/devography-client"
+            target="_blank"
+            class="projectlinks"
+            ><button class="bn29">Code Repo</button></a
+          >
+        </div>
+        <div class="project-three">
+          <img
+            src="./images/NASA.png"
+            alt="whats-up-at-nasa screenshot"
+            class="screenshot zoom"
+          />
+          <h4>Whats-Up-At-NASA</h4>
+          <p>
+            What's Up at NASA is a React Application that
+            queries the NASA Photo of the Day API and
+            returns 25 results to the user. If the user
+            clicks on a photo, the app will return details
+            about that photo from the NASA APOD API.
+          </p>
+          <a
+            href="https://whats-up-at-nasa.netlify.app/"
+            target="_blank"
+            class="projectlinks"
+            ><button class="bn29">Live Site</button></a
+          >
+          <a
+            href="https://github.com/CrowdedAstronaut/whats-up-at-NASA"
+            target="_blank"
+            class="projectlinks"
+            ><button class="bn29">Code Repo</button></a
+          >
+        </div>
+      </div>
+
       <footer class="page-footer">
         <ul class="footer-list">
           <li>ross@johnrossphillips.com</li>
           <li>©2021</li>
-          <li><a href="#header">Return to Top</a></li>
         </ul>
       </footer>
     </div>
