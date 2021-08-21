@@ -126,11 +126,7 @@ li {
   color: #274156;
   font-size: x-large;
 }
-.page-main {
-  grid-column: 2 / 3;
-  margin: auto;
-  font-size: larger;
-}
+
 .projects {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column: 1 / -1;
@@ -148,18 +144,8 @@ li {
   color: #fafaff;
 }
 
-.footer {
-  list-style-type: none;
-  color: #0e0f19;
-}
-
 ul {
   list-style-type: none;
-}
-
-details p {
-  text-transform: none;
-  text-align: left;
 }
 
 .mission-statement {
