@@ -7,7 +7,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  font: 500 100% system-ui, sans-serif;
+  font: 500 100% 16px system-ui, sans-serif;
 }
 
 h1,
@@ -78,20 +78,24 @@ li {
 }
 .ross-logo {
   max-width: 60vw;
-  margin-top: 10vh;
+  margin-top: 20vh;
   /* display: flex; */
+}
+
+.mission-statement {
+  font-size: 0.5em;
 }
 
 .fab {
   display: block;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .fas {
   display: block;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .page-header {
@@ -108,7 +112,7 @@ li {
   z-index: 5000;
 }
 .codeicon {
-  width: 100px;
+  width: 3rem;
   margin-top: 20px;
 }
 .skills {
