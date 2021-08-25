@@ -128,7 +128,6 @@ li {
   grid-column: 1 / span 2;
   text-align: center;
   color: #274156;
-  font-size: x-large;
 }
 
 .projects {
@@ -154,6 +153,7 @@ ul {
 
 .mission-statement {
   text-align: center;
+  font-size: 3rem;
 }
 
 @media only screen and (max-width: 600px) {
