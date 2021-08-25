@@ -7,7 +7,6 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Work Sans", sans-serif;
-  font: 500 100% 16px system-ui, sans-serif;
 }
 
 h1,
@@ -20,7 +19,12 @@ h6 {
 }
 
 h2 {
-  font-size: x-large;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 .page-wrap {
   background: #fafaff;
@@ -37,7 +41,7 @@ h2 {
     text-align: center;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1920) {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     > * {
@@ -83,9 +87,14 @@ li {
 }
 
 .mission-statement {
-  font-size: 0.5em;
+  font-size: 1rem;
+  text-align: center;
 }
 
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .fab {
   display: block;
   color: white;
@@ -149,11 +158,6 @@ li {
 
 ul {
   list-style-type: none;
-}
-
-.mission-statement {
-  text-align: center;
-  font-size: 3rem;
 }
 
 @media only screen and (max-width: 600px) {
