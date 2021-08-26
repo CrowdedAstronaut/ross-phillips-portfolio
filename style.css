@@ -68,6 +68,7 @@ h4 {
 a {
   text-decoration: none;
   color: #fafaff;
+  display: inline-block;
 }
 
 li {
@@ -81,13 +82,20 @@ li {
 }
 .ross-logo {
   max-width: 60vw;
-  margin-top: 20vh;
+  /* margin-top: 20vh; */
   /* display: flex; */
+}
+
+.title {
+  text-align: left;
+  font-size: 2rem;
+  display: flex;
 }
 
 .mission-statement {
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
+  display: inline-block;
 }
 
 p {
@@ -134,7 +142,7 @@ p {
 .about-me {
   grid-row: 2;
   grid-column: 1 / span 2;
-  text-align: center;
+  text-align: left;
   color: #274156;
 }
 
