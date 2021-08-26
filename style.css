@@ -79,6 +79,7 @@ li {
 .header-link:link {
   text-decoration: none;
   color: #fafaff;
+  display: inline-block;
 }
 .ross-logo {
   max-width: 60vw;
@@ -98,13 +99,13 @@ p {
 .fab {
   display: block;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .fas {
   display: block;
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .page-header {
