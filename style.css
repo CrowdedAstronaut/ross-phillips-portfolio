@@ -27,32 +27,13 @@ h2 {
 h4 {
   font-size: 1.5rem;
 }
-.page-wrap {
-  background: #fafaff;
-  height: calc(100vh - 10px);
-  box-shadow: 0 0 3px rgba(black, 0.33);
-
-  display: flex;
-  flex-direction: column;
-  > * {
-    padding: 1rem;
-    text-align: center;
-  }
-
-  @media (max-width: 1920) {
-    grid-template-columns: 100%;
-    grid-template-rows: auto;
-    > * {
-      grid-column: 1 / -1 !important;
-      grid-row: auto !important;
-    }
-  }
-}
 
 /* img {
   max-width: 75%;
 } */
 
+.main-container {
+}
 .screenshot {
   max-width: 50%;
 }
@@ -140,12 +121,14 @@ p {
   color: #fafaff;
 }
 .about-me {
-  grid-row: 2;
-  grid-column: 1 / span 2;
+  display: flex;
   text-align: left;
   color: #274156;
 }
 
+.logo-container {
+  display: flex;
+}
 .projects {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column: 1 / -1;
