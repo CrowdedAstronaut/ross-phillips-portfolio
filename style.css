@@ -19,18 +19,23 @@ h6 {
   font-family: "Crimson Text", serif;
 }
 
-h2 {
-  font-size: 2rem;
-  font-weight: bolder;
+.about-me h2 {
+  font-size: 3rem;
+  margin: 1rem 0rem 3rem 0rem;
 }
 
-h4 {
+.about-me h3 {
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 /* img {
   max-width: 75%;
 } */
+.skills h2,
+.projects h2 {
+  font-size: 2rem;
+}
 
 .main-container {
 }
@@ -62,9 +67,8 @@ li {
   display: inline-block;
 }
 .ross-logo {
-  max-width: 60vw;
-  /* margin-top: 20vh; */
-  /* display: flex; */
+  max-width: 35vw;
+  padding: 3vw 2vw 0;
 }
 
 .title {
@@ -74,14 +78,16 @@ li {
 }
 
 .mission-statement {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: left;
-  display: inline-block;
+  max-width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 p {
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 1.5vh;
 }
 .fab {
   display: block;
@@ -113,33 +119,39 @@ p {
   margin-top: 20px;
 }
 .skills {
-  padding-bottom: 50px;
+  padding: 0rem 5rem 1rem 5rem;
   grid-row: 3;
   grid-column: 1 / span 2;
   background: #5f7367;
   text-align: left;
   color: #fafaff;
+  width: 100%;
 }
 .about-me {
   display: flex;
   text-align: left;
+  justify-content: space-between;
   color: #274156;
+  padding: 5rem 5rem 1rem 5rem;
 }
 
 .logo-container {
   display: flex;
+  justify-content: ;
 }
 .projects {
   display: flex;
   flex-direction: column;
   background: #fafaff;
   text-align: left;
+  padding: 0rem 5rem 1rem 5rem;
 }
 
 .project-one,
 .project-two,
 .project-three {
   display: flex;
+  padding-bottom: 4vh;
 }
 
 .page-footer {
@@ -164,5 +176,32 @@ ul {
 @media only screen and (max-width: 768px) {
   .ross-logo {
     max-width: 100vw;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  ...;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .main-container {
+    max-width: 2000px;
   }
 }
