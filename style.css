@@ -154,8 +154,11 @@ td {
 .codeicon {
   width: 3rem;
 }
+tr {
+  padding-bottom: 10%;
+}
 .skills {
-  padding: 0rem 5rem 1rem 5rem;
+  padding: 0rem 5rem 5rem 5rem;
   grid-row: 3;
   grid-column: 1 / span 2;
   background: #5f7367;
@@ -179,7 +182,6 @@ td {
 .projects {
   width: 100%;
   background: #fafaff;
-
   padding: 0rem 5rem 1rem 5rem;
   margin: 1rem auto;
 }
@@ -193,9 +195,8 @@ td {
 .project-two,
 .project-three {
   display: flex;
-  padding-bottom: 4vh;
-  margin: 0;
-  padding: 0;
+  /* padding: 2vh; */
+  margin-bottom: 2vh;
   font-size: 1rem;
   justify-content: space-evenly;
   align-items: center;
@@ -220,6 +221,41 @@ td {
   text-align: center;
   background: #0e0f19;
   color: #fafaff;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(
+    to bottom,
+    #ededed 5%,
+    #dfdfdf 100%
+  );
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #777777;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-align: center;
+  width: 6rem;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.myButton:hover {
+  background: linear-gradient(
+    to bottom,
+    #dfdfdf 5%,
+    #ededed 100%
+  );
+  background-color: #dfdfdf;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
 
 /* .active {
