@@ -43,7 +43,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -56,7 +56,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   display: block;
   padding: 0.5rem 1rem;
 }
@@ -72,25 +72,36 @@ nav a:hover {
 }
 
 .about-me h2 {
+  font-weight: 500;
   font-size: 3rem;
   margin: 0rem;
+  padding-top: 1rem;
 }
 
 .about-me h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bolder;
+  margin: 0rem;
 }
 
 .skills h2,
 .projects h2 {
   font-size: 2.5rem;
+  font-family: "Crimson Text", serif;
+}
+
+.projects h2,
+h4 {
+  color: #274156;
 }
 
 .skills h4,
 .projects h4 {
   font-size: 2rem;
 }
+
 .screenshot {
+  object-fit: cover;
 }
 
 a {
@@ -100,6 +111,10 @@ a {
 }
 
 li {
+  text-align: center;
+}
+
+td {
   text-align: center;
 }
 
@@ -133,12 +148,11 @@ li {
 .navicon {
   display: block;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .codeicon {
   width: 3rem;
-  :20px ;
 }
 .skills {
   padding: 0rem 5rem 1rem 5rem;
@@ -155,6 +169,7 @@ li {
   justify-content: space-between;
   color: #274156;
   padding: 5rem 5rem 1rem 5rem;
+  margin-top: 2rem;
 }
 
 .logo-container {
@@ -162,11 +177,16 @@ li {
   justify-content: space-evenly;
 }
 .projects {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   background: #fafaff;
-  text-align: left;
+
   padding: 0rem 5rem 1rem 5rem;
+  margin: 1rem auto;
+}
+
+.image-container {
+  text-align: center;
+  object-fit: cover;
 }
 
 .project-one,
@@ -174,6 +194,23 @@ li {
 .project-three {
   display: flex;
   padding-bottom: 4vh;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.project-text p {
+  color: #274156;
+  font-size: 1.5vh;
+}
+.projects a {
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
 .page-footer {
@@ -215,9 +252,13 @@ li {
 } */
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-  ...;
-} */
+@media only screen and (max-width: 768px) {
+  .skills,
+  .about-me,
+  .projects {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
