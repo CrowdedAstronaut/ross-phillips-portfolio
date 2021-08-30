@@ -215,6 +215,8 @@ tr {
 .project-text p {
   color: #274156;
   font-size: 1.5vh;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 .projects a {
   text-decoration: none;
