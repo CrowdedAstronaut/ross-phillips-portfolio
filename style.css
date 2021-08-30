@@ -110,7 +110,7 @@ h4 {
 }
 
 .screenshot {
-  object-fit: cover;
+  max-width: 95%;
 }
 
 a {
@@ -285,7 +285,6 @@ tr {
   .about-me,
   .projects {
     padding: 0rem 1rem 1rem 1rem;
-    flex-direction: column-reverse;
   }
 }
 
