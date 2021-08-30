@@ -43,9 +43,16 @@ h6 {
 nav {
   width: 100%;
   margin: 1rem auto;
+  padding: 1rem;
+  position: absolute;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   text-align: center;
+
+  /* animate slide up and down */
+  transform: translateY(-100%);
+  transition: transform 0.2s ease;
 }
 
 nav ul {
@@ -110,7 +117,7 @@ h4 {
 }
 
 .screenshot {
-  max-width: 95%;
+  max-width: 600px;
 }
 
 a {
@@ -128,7 +135,7 @@ td {
 }
 
 .ross-logo {
-  max-width: 35vw;
+  max-width: 50vw;
   padding: 3vw 2vw 0;
 }
 
@@ -220,14 +227,12 @@ tr {
 .projects a {
   text-decoration: none;
   font-weight: 500;
-  display: block;
+  display: inline-block;
   padding: 0.5rem 1rem;
 }
 
 .page-footer {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-column: 1 / -1;
-  grid-row: 5;
+  width: 100%;
   text-align: center;
   background: #0e0f19;
   color: #fafaff;
@@ -235,7 +240,11 @@ tr {
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background: linear-gradient(
+    to bottom,
+    #ededed 5%,
+    #dfdfdf 100%
+  );
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -252,7 +261,11 @@ tr {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background: linear-gradient(
+    to bottom,
+    #dfdfdf 5%,
+    #ededed 100%
+  );
   background-color: #dfdfdf;
 }
 .myButton:active {
@@ -285,6 +298,17 @@ tr {
   .about-me,
   .projects {
     padding: 0rem 1rem 1rem 1rem;
+  }
+  .project-one,
+  .project-three {
+    flex-direction: column;
+  }
+  .project-two,
+  .about-me {
+    flex-direction: column-reverse;
+  }
+  .ross-logo {
+    max-width: 70vw;
   }
 }
 
