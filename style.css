@@ -34,9 +34,18 @@ h6 {
   z-index: 5000;
 }
 
+.hamburger,
+.close {
+  font-size: 2rem;
+  color: #00bff3;
+}
+
 nav {
   width: 100%;
   margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 nav ul {
@@ -101,7 +110,7 @@ h4 {
 }
 
 .screenshot {
-  object-fit: cover;
+  max-width: 95%;
 }
 
 a {
@@ -206,6 +215,7 @@ tr {
 .project-text p {
   color: #274156;
   font-size: 1.5vh;
+  padding-left: 10%;
 }
 .projects a {
   text-decoration: none;
@@ -225,11 +235,7 @@ tr {
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(
-    to bottom,
-    #ededed 5%,
-    #dfdfdf 100%
-  );
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -246,11 +252,7 @@ tr {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(
-    to bottom,
-    #dfdfdf 5%,
-    #ededed 100%
-  );
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
   background-color: #dfdfdf;
 }
 .myButton:active {
@@ -278,9 +280,13 @@ tr {
 } */
 
 /* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  ...;
-} */
+@media only screen and (max-width: 600px) {
+  .skills,
+  .about-me,
+  .projects {
+    padding: 0rem 1rem 1rem 1rem;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {
