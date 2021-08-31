@@ -25,7 +25,7 @@ h6 {
 }
 
 .page-header {
-  background-color: black;
+  background-color: #181a23;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -82,21 +82,21 @@ nav a:focus {
   color: black;
 }
 
-nav a:hover {
+a:hover {
   color: #ff583d;
   background-color: #f0c808;
 }
 
 .about-me h2 {
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0rem;
   padding-top: 1rem;
 }
 
 .about-me h3 {
-  font-size: 2rem;
-  font-weight: bolder;
+  font-size: 1rem;
+
   margin: 0rem;
 }
 
@@ -108,7 +108,7 @@ nav a:hover {
 
 .projects h2,
 h4 {
-  color: #274156;
+  color: #181a23;
 }
 
 .skills h4,
@@ -122,7 +122,7 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #fafaff;
+  color: #fdfbfa;
   display: inline-block;
 }
 
@@ -135,8 +135,8 @@ td {
 }
 
 .ross-logo {
-  max-width: 50vw;
   padding: 3vw 2vw 0;
+  max-width: 40vw;
 }
 
 .title {
@@ -146,9 +146,8 @@ td {
 }
 
 .mission-statement {
-  font-size: 1rem;
   text-align: left;
-  max-width: 40vw;
+  max-width: 50vw;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -163,7 +162,7 @@ td {
 }
 .navicon {
   display: block;
-  color: white;
+  color: #fdfbfa;
   font-size: 2.5rem;
 }
 
@@ -177,16 +176,16 @@ tr {
   padding: 0rem 5rem 5rem 5rem;
   grid-row: 3;
   grid-column: 1 / span 2;
-  background: #5f7367;
+  background: #314340;
   text-align: left;
-  color: #fafaff;
+  color: #fdfbfa;
   width: 100%;
 }
 .about-me {
   display: flex;
   text-align: left;
   justify-content: space-between;
-  color: #274156;
+  color: #181a23;
   padding: 5rem 5rem 1rem 5rem;
   margin-top: 2rem;
 }
@@ -197,7 +196,7 @@ tr {
 }
 .projects {
   width: 100%;
-  background: #fafaff;
+  background: #fdfbfa;
   padding: 0rem 5rem 1rem 5rem;
   margin: 1rem auto;
 }
@@ -220,7 +219,7 @@ tr {
 }
 
 .project-text p {
-  color: #274156;
+  color: #181a23;
   font-size: 1.5vh;
   padding-left: 10%;
 }
@@ -233,18 +232,24 @@ tr {
 
 .page-footer {
   width: 100%;
-  text-align: center;
-  background: #0e0f19;
-  color: #fafaff;
+  min-height: 20%;
+
+  background-color: #181a23;
+  color: #fdfbfa;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  align-items: center;
+  align-content: center;
 }
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(
-    to bottom,
-    #ededed 5%,
-    #dfdfdf 100%
-  );
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -261,11 +266,7 @@ tr {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(
-    to bottom,
-    #dfdfdf 5%,
-    #ededed 100%
-  );
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
   background-color: #dfdfdf;
 }
 .myButton:active {
