@@ -82,7 +82,7 @@ nav a:focus {
   color: black;
 }
 
-nav a:hover {
+a:hover {
   color: #ff583d;
   background-color: #f0c808;
 }
@@ -232,9 +232,19 @@ tr {
 
 .page-footer {
   width: 100%;
-  text-align: center;
+  min-height: 20%;
+
   background-color: #181a23;
   color: #fdfbfa;
+}
+
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  align-items: center;
+  align-content: center;
 }
 
 .myButton {
