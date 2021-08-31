@@ -26,12 +26,12 @@ h6 {
 
 .page-header {
   background-color: #181a23;
-  overflow: hidden;
+  /* overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 5000;
+  z-index: 5000; */
 }
 
 .hamburger,
@@ -41,15 +41,18 @@ h6 {
 }
 
 nav {
-  width: 100%;
   margin: 1rem auto;
   padding: 1rem;
-  position: absolute;
   z-index: 1000;
   display: flex;
+  position: absolute;
   justify-content: space-between;
   text-align: center;
-
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
   /* animate slide up and down */
   transform: translateY(-100%);
   transition: transform 0.2s ease;
@@ -158,7 +161,7 @@ td {
 }
 
 .mission-statement p {
-  font-size: 1.5vh;
+  font-size: 2vh;
 }
 .navicon {
   display: block;
@@ -249,7 +252,11 @@ tr {
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background: linear-gradient(
+    to bottom,
+    #ededed 5%,
+    #dfdfdf 100%
+  );
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -266,7 +273,11 @@ tr {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background: linear-gradient(
+    to bottom,
+    #dfdfdf 5%,
+    #ededed 100%
+  );
   background-color: #dfdfdf;
 }
 .myButton:active {
