@@ -110,12 +110,12 @@ a:hover {
 }
 
 .projects h2,
-h4 {
+h3 {
   color: #181a23;
 }
 
-.skills h4,
-.projects h4 {
+.skills h3,
+.projects h3 {
   font-size: 2rem;
 }
 
