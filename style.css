@@ -41,7 +41,7 @@ h6 {
 }
 
 nav {
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
   padding: 1rem;
   z-index: 1000;
   display: flex;
@@ -58,6 +58,9 @@ nav {
   transition: transform 0.2s ease;
 }
 
+nav:target {
+  transform: translateY(0);
+}
 nav ul {
   list-style-type: none;
   margin: 0;
