@@ -319,6 +319,9 @@ tr {
   .ross-logo {
     max-width: 70vw;
   }
+  .about-me {
+    align-items: center;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
