@@ -42,6 +42,7 @@ h6 {
 
 nav {
   /* margin: 1rem auto; */
+
   padding: 1rem;
   z-index: 1000;
   display: flex;
@@ -338,7 +339,7 @@ tr {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
   header {
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
   }
   nav {
     border-bottom: 3px solid #181a23;
