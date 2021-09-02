@@ -337,7 +337,13 @@ img.screenshot.zoom {
     max-width: 70vw;
   }
   .about-me {
-    align-items: center;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #181a23;
+    padding: 1rem 5rem 1rem 5rem;
+    margin-top: 2rem;
   }
   .mission-statement h2,
   h3 {
@@ -345,6 +351,7 @@ img.screenshot.zoom {
   }
   .mission-statement p {
     width: 400px;
+    text-align: center;
   }
 }
 
