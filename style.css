@@ -120,6 +120,7 @@ h3 {
 .skills h3,
 .projects h3 {
   font-size: 2rem;
+  padding-left: 10%;
 }
 
 .screenshot {
@@ -165,7 +166,8 @@ td {
 }
 
 .mission-statement p {
-  font-size: 2vh;
+  font-size: 1.5vh;
+  width: 500px;
 }
 .navicon {
   display: block;
@@ -209,6 +211,9 @@ tr {
   margin: 1rem auto;
 }
 
+img.screenshot.zoom {
+  padding: 3rem;
+}
 .image-container {
   text-align: center;
   object-fit: cover;
@@ -230,6 +235,10 @@ tr {
   color: #181a23;
   font-size: 1.5vh;
   padding-left: 10%;
+  width: 500px;
+}
+.project-links {
+  text-align: center;
 }
 .projects a {
   text-decoration: none;
@@ -329,6 +338,13 @@ tr {
   }
   .about-me {
     align-items: center;
+  }
+  .mission-statement h2,
+  h3 {
+    width: 200px;
+  }
+  .mission-statement p {
+    width: 400px;
   }
 }
 
