@@ -124,7 +124,7 @@ h3 {
 }
 
 .screenshot {
-  max-width: 600px;
+  max-width: 40vw;
 }
 
 a {
@@ -155,7 +155,7 @@ td {
 
 .mission-statement {
   text-align: left;
-  max-width: 50vw;
+  /* max-width: 50vw; */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -167,7 +167,7 @@ td {
 
 .mission-statement p {
   font-size: 1.5vh;
-  width: 500px;
+  max-width: 500px;
 }
 .navicon {
   display: block;
@@ -182,7 +182,7 @@ tr {
   padding-bottom: 10%;
 }
 .skills {
-  padding: 0rem 5rem 5rem 5rem;
+  /* padding: 0rem 5rem 5rem 5rem; */
   grid-row: 3;
   grid-column: 1 / span 2;
   background: #314340;
@@ -196,8 +196,7 @@ tr {
   align-items: flex-start;
   justify-content: space-between;
   color: #181a23;
-  padding: 5rem 5rem 1rem 5rem;
-  margin-top: 2rem;
+  padding: 4rem;
 }
 
 .logo-container {
@@ -211,8 +210,13 @@ tr {
   margin: 1rem auto;
 }
 
-img.screenshot.zoom {
-  padding: 3rem;
+.allcity-screenshot {
+}
+
+.devography-screnshot {
+}
+
+.nasa-screenshot {
 }
 .image-container {
   text-align: center;
@@ -235,7 +239,7 @@ img.screenshot.zoom {
   color: #181a23;
   font-size: 1.5vh;
   padding-left: 10%;
-  width: 500px;
+  width: 90vw;
 }
 .project-links {
   text-align: center;
@@ -337,15 +341,25 @@ img.screenshot.zoom {
     max-width: 70vw;
   }
   .about-me {
-    align-items: center;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #181a23;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-top: 2rem;
   }
-  .mission-statement h2,
+  .mission-statement {
+    width: 90vw;
+  }
+  /* .mission-statement h2,
   h3 {
     width: 200px;
   }
   .mission-statement p {
-    width: 400px;
-  }
+    max-width: 400px;
+    text-align: center;
+  } */
 }
 
 .close:hover {
