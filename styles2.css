@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 body {
   background: #fafaff;
@@ -329,105 +329,43 @@ tr {
   top: 1px;
 }
 
-/* .active {
-    color: #ff583d;
-    background-color: #c5e5ed;
-    border-top: 5px solid #00bff3;
-    border-bottom: 5px solid #00bff3;
-  } */
-
-/* @media only screen and (max-width: 600px) {
-    .ross-logo {
-      max-width: 100vw;
-    }
-  } */
-
-/* @media only screen and (max-width: 768px) {
-    .ross-logo {
-      max-width: 100vw;
-    }
-  } */
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  .skills,
-  .about-me,
-  .projects {
-    padding: 0rem 1rem 1rem 1rem;
-  }
-  .project-one,
-  .project-three {
-    flex-direction: column;
-  }
-  .project-two,
-  .about-me {
-    flex-direction: column-reverse;
-  }
-  .ross-logo {
-    max-width: 70vw;
-  } */
-/* .about-me {
-    display: flex;
-    text-align: left;
-    align-items: -sflextart;
-    justify-content: space-between;
-    color: #181a23;
-    padding: 1rem 0.5rem 1rem 0.5rem;
-    margin-top: 2rem;
-  } */
-/* .mission-statement {
-    width: 90vw;
-  } */
-/* .mission-statement h2,
-    h3 {
-      width: 200px;
-    }
-    .mission-statement p {
-      max-width: 400px;
-      text-align: center;
-    } */
-
-.close:hover {
-  /* background-color: transparent; */
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 768px) {
-  /* nav {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) {
+  /* Styles */
+  nav {
     border-bottom: 3px solid #181a23;
     border-top: 3px solid #181a23;
     padding: 0;
     position: static;
     height: auto;
     transform: translateY(0);
-  } */
-  /* .hamburger,
+  }
+  .hamburger,
   .close {
     display: none;
-  } */
-  /* nav ul {
+  }
+  nav ul {
     flex-flow: row wrap;
     justify-content: center;
-  } */
+  }
+  .about-me {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    color: #181a23;
+    padding: 3rem;
+    max-width: 1440px;
+    margin: auto;
+    gap: 5vw;
+  }
+  ul.page-links {
+    justify-content: space-evenly;
+  }
+  .skills-wrapper {
+    /* padding: 0rem 5rem 5rem 5rem; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column: 1 / span 2;
+  }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (max-width: 768px) {
-    .skills,
-    .about-me,
-    .projects {
-      padding: 0rem 1rem 1rem 1rem;
-    }
-  } */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-    ...;
-  } */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-    .main-container {
-      max-width: 2000px;
-    }
-  } */
