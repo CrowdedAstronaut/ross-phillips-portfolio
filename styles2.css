@@ -108,7 +108,8 @@ a:hover {
 
 .skills h2,
 .projects h2 {
-  font-size: 2.5rem;
+  padding-left: 0.5rem;
+  font-size: 2rem;
   font-family: "Crimson Text", serif;
 }
 
@@ -119,12 +120,12 @@ h3 {
 
 .skills h3,
 .projects h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 10%;
 }
 
 .screenshot {
-  max-width: 40vw;
+  max-width: 100%;
 }
 
 a {
@@ -142,9 +143,8 @@ td {
 }
 
 .ross-logo {
-  padding: 3vw 2vw 0;
-  max-width: 40vw;
-  color: #181a23;
+  width: 90%;
+  fill: #181a23;
 }
 
 .title {
@@ -175,16 +175,32 @@ td {
   font-size: 2.5rem;
 }
 
+.fa-bars {
+  font-size: 2rem;
+  padding: 10px;
+}
+
 .codeicon {
   width: 3rem;
 }
 tr {
   padding-bottom: 10%;
 }
-.skills {
+
+.skills-wrapper {
   /* padding: 0rem 5rem 5rem 5rem; */
-  grid-row: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   grid-column: 1 / span 2;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills {
   background: #314340;
   text-align: left;
   color: #fdfbfa;
@@ -192,11 +208,12 @@ tr {
 }
 .about-me {
   display: flex;
+  flex-direction: column-reverse;
   text-align: left;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   color: #181a23;
-  padding: 4rem;
+  padding: 0.5rem;
 }
 
 .logo-container {
@@ -206,7 +223,7 @@ tr {
 .projects {
   width: 100%;
   background: #fdfbfa;
-  padding: 0rem 5rem 1rem 5rem;
+  /* padding: 0rem 5rem 1rem 5rem; */
   margin: 1rem auto;
 }
 
@@ -233,6 +250,15 @@ tr {
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+}
+
+.project-one,
+.project-three {
+  flex-direction: column;
+}
+
+.project-two {
+  flex-direction: column-reverse;
 }
 
 .project-text p {
@@ -323,7 +349,7 @@ tr {
   } */
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .skills,
   .about-me,
   .projects {
@@ -339,20 +365,20 @@ tr {
   }
   .ross-logo {
     max-width: 70vw;
-  }
-  .about-me {
+  } */
+/* .about-me {
     display: flex;
     text-align: left;
-    align-items: flex-start;
+    align-items: -sflextart;
     justify-content: space-between;
     color: #181a23;
     padding: 1rem 0.5rem 1rem 0.5rem;
     margin-top: 2rem;
-  }
-  .mission-statement {
+  } */
+/* .mission-statement {
     width: 90vw;
-  }
-  /* .mission-statement h2,
+  } */
+/* .mission-statement h2,
     h3 {
       width: 200px;
     }
@@ -360,7 +386,6 @@ tr {
       max-width: 400px;
       text-align: center;
     } */
-}
 
 .close:hover {
   /* background-color: transparent; */
@@ -368,25 +393,22 @@ tr {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
-  header {
-    /* margin: 1rem auto; */
-  }
-  nav {
+  /* nav {
     border-bottom: 3px solid #181a23;
     border-top: 3px solid #181a23;
     padding: 0;
     position: static;
     height: auto;
     transform: translateY(0);
-  }
-  .hamburger,
+  } */
+  /* .hamburger,
   .close {
     display: none;
-  }
-  nav ul {
+  } */
+  /* nav ul {
     flex-flow: row wrap;
     justify-content: center;
-  }
+  } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
