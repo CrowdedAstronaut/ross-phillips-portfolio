@@ -178,9 +178,7 @@ td {
 .codeicon {
   width: 3rem;
 }
-tr {
-  padding-bottom: 10%;
-}
+
 .skills {
   /* padding: 0rem 5rem 5rem 5rem; */
   grid-row: 3;
