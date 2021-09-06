@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+
 * {
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
 body {
-  background: #fafaff;
+  background: #fdfbfa;
   padding: 5px;
   height: 100vh;
   margin: 0;
@@ -22,11 +24,11 @@ h4,
 h5,
 h6,
 a {
-  font-family: "Montserrat", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
-  font-family: "Oswald";
+  font-family: "Lato", sans-serif;
 }
 
 .page-header {
@@ -142,13 +144,8 @@ li {
   text-align: center;
 }
 
-td {
-  text-align: center;
-}
-
 .ross-logo {
   width: 90%;
-  fill: #181a23;
 }
 
 .title {
@@ -187,9 +184,6 @@ td {
 .codeicon {
   width: 3rem;
 }
-tr {
-  padding-bottom: 10%;
-}
 
 .skills-wrapper {
   /* padding: 0rem 5rem 5rem 5rem; */
@@ -205,7 +199,7 @@ tr {
 }
 
 .skills {
-  background: #314340;
+  background: #576467;
   text-align: left;
   color: #fdfbfa;
   width: 100%;
@@ -216,6 +210,7 @@ tr {
   text-align: left;
   align-items: center;
   justify-content: space-between;
+  background-color: #fdfbfa;
   color: #181a23;
   padding: 0.5rem;
 }
@@ -329,8 +324,8 @@ tr {
 @media only screen and (min-device-width: 768px) {
   /* Styles */
   nav {
-    border-bottom: 3px solid #181a23;
-    border-top: 3px solid #181a23;
+    border-bottom: 3px solid #484847;
+    border-top: 3px solid #484847;
     padding: 0;
     position: static;
     height: auto;
@@ -349,11 +344,14 @@ tr {
     text-align: left;
     align-items: center;
     justify-content: space-between;
-    color: #181a23;
+    /* color: #484847; */
     padding: 3rem;
     max-width: 1440px;
     margin: auto;
     gap: 5vw;
+  }
+  .skills h2 {
+    padding-left: 3rem;
   }
   ul.page-links {
     justify-content: space-evenly;
