@@ -49,6 +49,7 @@ p {
 
 nav {
   /* margin: 1rem auto; */
+  background-color: #181a23;
 
   padding: 1rem;
   z-index: 1000;
@@ -226,14 +227,6 @@ li {
   margin: 1rem auto;
 }
 
-.allcity-screenshot {
-}
-
-.devography-screnshot {
-}
-
-.nasa-screenshot {
-}
 .image-container {
   text-align: center;
   object-fit: cover;
