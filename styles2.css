@@ -350,8 +350,10 @@ li {
     margin: auto;
     gap: 5vw;
   }
-  .skills h2 {
+  .skills h2,
+  .projects h2 {
     padding-left: 3rem;
+    font-size: 2rem;
   }
   ul.page-links {
     justify-content: space-evenly;
@@ -362,4 +364,11 @@ li {
     grid-template-columns: repeat(4, 1fr);
     grid-column: 1 / span 2;
   }
+  /* .project-one,
+  .project-three {
+    flex-direction: row;
+  }
+  .project-two {
+    flex-direction: row-reverse;
+  } */
 }
