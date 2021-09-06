@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+
 * {
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
 body {
-  background: #fafaff;
+  background: #fbfbfb;
   padding: 5px;
   height: 100vh;
   margin: 0;
@@ -22,15 +24,15 @@ h4,
 h5,
 h6,
 a {
-  font-family: "Montserrat", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
-  font-family: "Oswald";
+  font-family: "Lato", sans-serif;
 }
 
 .page-header {
-  background-color: #181a23;
+  background-color: #484847;
   /* overflow: hidden;
     position: fixed;
     top: 0;
@@ -119,7 +121,7 @@ a:hover {
 
 .projects h2,
 h3 {
-  color: #181a23;
+  color: #484847;
 }
 
 .skills h3,
@@ -134,7 +136,7 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #fdfbfa;
+  color: #fbfbfb;
   display: inline-block;
 }
 
@@ -142,13 +144,8 @@ li {
   text-align: center;
 }
 
-td {
-  text-align: center;
-}
-
 .ross-logo {
   width: 90%;
-  fill: #181a23;
 }
 
 .title {
@@ -175,7 +172,7 @@ td {
 }
 .navicon {
   display: block;
-  color: #fdfbfa;
+  color: #fbfbfb;
   font-size: 2.5rem;
 }
 
@@ -205,9 +202,9 @@ tr {
 }
 
 .skills {
-  background: #314340;
+  background: #af8b4c;
   text-align: left;
-  color: #fdfbfa;
+  color: #fbfbfb;
   width: 100%;
 }
 .about-me {
@@ -216,7 +213,8 @@ tr {
   text-align: left;
   align-items: center;
   justify-content: space-between;
-  color: #181a23;
+  background-color: #fbfbfb;
+  color: #484847;
   padding: 0.5rem;
 }
 
@@ -226,7 +224,7 @@ tr {
 }
 .projects {
   width: 100%;
-  background: #fdfbfa;
+  background: #fbfbfb;
   /* padding: 0rem 5rem 1rem 5rem; */
   margin: 1rem auto;
 }
@@ -266,7 +264,7 @@ tr {
 }
 
 .project-text p {
-  color: #181a23;
+  color: #484847;
   font-size: 1.5vh;
   padding-left: 10%;
   width: 90vw;
@@ -285,8 +283,8 @@ tr {
   width: 100%;
   min-height: 20%;
 
-  background-color: #181a23;
-  color: #fdfbfa;
+  background-color: #484847;
+  color: #fbfbfb;
 }
 
 .footer-list {
@@ -329,8 +327,8 @@ tr {
 @media only screen and (min-device-width: 768px) {
   /* Styles */
   nav {
-    border-bottom: 3px solid #181a23;
-    border-top: 3px solid #181a23;
+    border-bottom: 3px solid #484847;
+    border-top: 3px solid #484847;
     padding: 0;
     position: static;
     height: auto;
@@ -349,11 +347,14 @@ tr {
     text-align: left;
     align-items: center;
     justify-content: space-between;
-    color: #181a23;
+    /* color: #484847; */
     padding: 3rem;
     max-width: 1440px;
     margin: auto;
     gap: 5vw;
+  }
+  .skills h2 {
+    padding-left: 3rem;
   }
   ul.page-links {
     justify-content: space-evenly;
