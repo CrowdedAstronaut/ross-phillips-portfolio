@@ -49,6 +49,7 @@ p {
 
 nav {
   /* margin: 1rem auto; */
+  background-color: #181a23;
 
   padding: 1rem;
   z-index: 1000;
@@ -226,14 +227,6 @@ li {
   margin: 1rem auto;
 }
 
-.allcity-screenshot {
-}
-
-.devography-screnshot {
-}
-
-.nasa-screenshot {
-}
 .image-container {
   text-align: center;
   object-fit: cover;
@@ -350,8 +343,10 @@ li {
     margin: auto;
     gap: 5vw;
   }
-  .skills h2 {
+  .skills h2,
+  .projects h2 {
     padding-left: 3rem;
+    font-size: 2rem;
   }
   ul.page-links {
     justify-content: space-evenly;
@@ -362,4 +357,11 @@ li {
     grid-template-columns: repeat(4, 1fr);
     grid-column: 1 / span 2;
   }
+  /* .project-one,
+  .project-three {
+    flex-direction: row;
+  }
+  .project-two {
+    flex-direction: row-reverse;
+  } */
 }
