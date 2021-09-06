@@ -50,7 +50,6 @@ p {
 nav {
   /* margin: 1rem auto; */
   background-color: #181a23;
-
   padding: 1rem;
   z-index: 1000;
   display: flex;
