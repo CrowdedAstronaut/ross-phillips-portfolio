@@ -122,12 +122,14 @@ a:hover {
 .projects h2,
 h3 {
   color: #181a23;
+  font-weight: bolder;
 }
 
 .skills h3,
 .projects h3 {
   font-size: 1.5rem;
   padding-left: 10%;
+  font-weight: bolder;
 }
 
 .screenshot {
@@ -174,6 +176,7 @@ li {
   display: block;
   color: #fdfbfa;
   font-size: 2.5rem;
+  padding-top: 1rem;
 }
 
 .fa-bars {
@@ -203,6 +206,7 @@ li {
   text-align: left;
   color: #fdfbfa;
   width: 100%;
+  padding-bottom: 1.5rem;
 }
 .about-me {
   display: flex;
@@ -287,7 +291,11 @@ li {
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background: linear-gradient(
+    to bottom,
+    #ededed 5%,
+    #dfdfdf 100%
+  );
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -304,7 +312,11 @@ li {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background: linear-gradient(
+    to bottom,
+    #dfdfdf 5%,
+    #ededed 100%
+  );
   background-color: #dfdfdf;
 }
 .myButton:active {
