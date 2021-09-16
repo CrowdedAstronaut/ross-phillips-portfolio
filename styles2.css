@@ -169,7 +169,7 @@ li {
 }
 
 .mission-statement p {
-  font-size: 1.5vh;
+  font-size: 2vh;
   max-width: 500px;
 }
 .navicon {
@@ -258,7 +258,7 @@ li {
 
 .project-text p {
   color: #181a23;
-  font-size: 1.5vh;
+  font-size: 2vh;
   padding-left: 10%;
   width: 90vw;
 }
@@ -291,11 +291,7 @@ li {
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(
-    to bottom,
-    #ededed 5%,
-    #dfdfdf 100%
-  );
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -312,11 +308,7 @@ li {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(
-    to bottom,
-    #dfdfdf 5%,
-    #ededed 100%
-  );
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
   background-color: #dfdfdf;
 }
 .myButton:active {
@@ -354,6 +346,10 @@ li {
     margin: auto;
     gap: 5vw;
   }
+  .mission-statement p {
+    font-size: 2vh;
+    max-width: 500px;
+  }
   .skills h2,
   .projects h2 {
     padding-left: 3rem;
@@ -368,6 +364,12 @@ li {
     grid-template-columns: repeat(4, 1fr);
     grid-column: 1 / span 2;
   }
+  /* .project-text p {
+    color: #181a23;
+    font-size: 2vh;
+
+    width: 80vw;
+  } */
   /* .project-one,
   .project-three {
     flex-direction: row;
