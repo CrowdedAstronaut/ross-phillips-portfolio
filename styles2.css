@@ -389,4 +389,7 @@ li {
   .project-three {
     flex-direction: row;
   }
+  .project-text p {
+    width: 50vw;
+  }
 }
