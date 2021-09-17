@@ -129,7 +129,7 @@ h3 {
 .skills h3,
 .projects h3 {
   font-size: 1.5rem;
-  padding-left: 10%;
+
   font-weight: bolder;
 }
 
@@ -265,8 +265,8 @@ li {
 .project-text p {
   color: #181a23;
   font-size: 2vh;
-  padding-left: 10%;
-  width: 90vw;
+  padding-left: 0% 10% 0% 10%;
+  width: 85vw;
 }
 .project-links {
   text-align: center;
