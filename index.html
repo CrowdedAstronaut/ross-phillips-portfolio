@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       property="og:image"
       content="./images/ross-phillips-preview-image.png"
@@ -15,14 +12,8 @@
       property="og:description"
       content="Ross Phillips is a full stack developer with passions for mobile development, iOS, and accessibility."
     />
-    <meta
-      property="og:title"
-      content="Ross Phillips Software Developer"
-    />
-    <meta
-      property="og:url"
-      content="https://johnrossphillips.com"
-    />
+    <meta property="og:title" content="Ross Phillips Software Developer" />
+    <meta property="og:url" content="https://johnrossphillips.com" />
     <meta
       name="description"
       content="Ross Phillips is a full stack developer with passions for mobile development, iOS, and accessibility."
@@ -50,17 +41,15 @@
       gtag("config", "G-9NJJPKYJ7D");
     </script>
     <title>Ross Phillips, Software Engineer</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="./favicon.ico"
-    />
-    <link rel="stylesheet" href="styles2.css" />
+    <link rel="icon" type="image/png" href="./favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="main-container">
       <header class="page-header" id="header">
         <a
+          role="button"
+          tabindex="0"
           class="hamburger"
           href="#navbar"
           aria-label="Open main menu."
@@ -72,11 +61,10 @@
         <nav id="navbar">
           <ul class="page-links">
             <li>
-              <i
-                class="fas fa-home navicon"
-                aria-hidden="true"
-              ></i>
+              <i class="fas fa-home navicon" aria-hidden="true"></i>
               <a
+                role="button"
+                tabindex="0"
                 href="https://johnrossphillips.com"
                 class="header-link"
                 aria-label="Home"
@@ -87,11 +75,10 @@
               >
             </li>
             <li>
-              <i
-                class="fab fa-github navicon"
-                aria-hidden="true"
-              ></i>
+              <i class="fab fa-github navicon" aria-hidden="true"></i>
               <a
+                role="button"
+                tabindex="0"
                 aria-label="Github"
                 class="header-link"
                 href="https://github.com/crowdedastronaut"
@@ -102,11 +89,10 @@
               >
             </li>
             <li>
-              <i
-                class="fab fa-linkedin navicon"
-                aria-hidden="true"
-              ></i>
+              <i class="fab fa-linkedin navicon" aria-hidden="true"></i>
               <a
+                role="button"
+                tabindex="0"
                 class="header-link"
                 href="https://www.linkedin.com/in/johnrossphillips/"
                 aria-label="LinkedIn"
@@ -116,11 +102,10 @@
               >
             </li>
             <li>
-              <i
-                class="far fa-file navicon"
-                aria-hidden="true"
-              ></i>
+              <i class="far fa-file navicon" aria-hidden="true"></i>
               <a
+                role="button"
+                tabindex="0"
                 class="header-link"
                 href="https://docs.google.com/document/d/1gb9VDtkk2blLEPSZ30Mm51dVEdkYvmsj267BErCeSpg/edit?usp=sharing"
                 aria-label="Ross Phillips resume"
@@ -132,6 +117,8 @@
             <li>
               <i class="far fa-paper-plane navicon"></i>
               <a
+                role="button"
+                tabindex="0"
                 class="header-link"
                 href="mailto: ross@johnrossphillips.com"
                 aria-label="Email"
@@ -141,33 +128,24 @@
               >
             </li>
           </ul>
-          <a
-            class="close"
-            href="#"
-            aria-label="Close main menu."
-          >
+          <a class="close" href="#" aria-label="Close main menu.">
             <span class="sr-only">Close main menu</span>
-            <i
-              class="far fa-window-close navicon"
-              aria-hidden="true"
-            ></i>
+            <i class="far fa-window-close navicon" aria-hidden="true"></i>
           </a>
         </nav>
       </header>
 
-      <div class="about-me">
+      <section class="about-me">
         <div class="mission-statement">
           <h2>Ross Phillips</h2>
           <h3>Software Developer</h3>
           <p>
-            I am a full stack developer with passions for
-            mobile development, iOS, and accessibility. I am
-            a fanatic about details, and I have an
-            incredibly diverse range of work/life
-            experiences that enable me to communicate well
-            across a range of disciplines. I thrive in team
-            environments, and I enjoy collaborating with
-            others in order to solve complex problems.
+            I am a full stack developer with passions for mobile development,
+            iOS, and accessibility. I am a fanatic about details, and I have an
+            incredibly diverse range of work/life experiences that enable me to
+            communicate well across a range of disciplines. I thrive in team
+            environments, and I enjoy collaborating with others in order to
+            solve complex problems.
           </p>
         </div>
         <div class="logo-container">
@@ -177,8 +155,8 @@
             alt="my name is Ross Phillips, and I'm a software developer"
           />
         </div>
-      </div>
-      <div class="skills">
+      </section>
+      <section class="skills">
         <h2>Skills</h2>
         <div class="skills-wrapper">
           <div class="skill-container">
@@ -278,8 +256,8 @@
             <p>Swift</p>
           </div>
         </div>
-      </div>
-      <div class="projects">
+      </section>
+      <section class="projects">
         <h2>Projects</h2>
         <div class="project-one">
           <div class="image-container">
@@ -292,16 +270,13 @@
           <div class="project-text">
             <h3>All City</h3>
             <p>
-              AllCity is a working, interactive, mobile
-              application that allows users to learn more
-              about graffiti art. This mobile application
-              allows users to check out graffiti and street
-              art from around the globe, post their own
-              pictures, as well as like and comment on their
-              favorite pieces. The API was built using
-              Django and deployed to Heroku. The client was
-              built using ReactNative and is in testing on
-              the Apple App Store.
+              AllCity is a working, interactive, mobile application that allows
+              users to learn more about graffiti art. This mobile application
+              allows users to check out graffiti and street art from around the
+              globe, post their own pictures, as well as like and comment on
+              their favorite pieces. The API was built using Django and deployed
+              to Heroku. The client was built using ReactNative and is in
+              testing on the Apple App Store.
             </p>
 
             <div class="project-links">
@@ -326,12 +301,10 @@
           <div class="project-text">
             <h3>devOgraphy</h3>
             <p>
-              devOgraphy is a working, interactive,
-              full-stack application that receives data from
-              a custom API that we designed. The app allows
-              users to learn more about programming
-              languages, their icons, their authors, and
-              their creation date.
+              devOgraphy is a working, interactive, full-stack application that
+              receives data from a custom API that we designed. The app allows
+              users to learn more about programming languages, their icons,
+              their authors, and their creation date.
             </p>
             <div class="project-links">
               <a
@@ -369,11 +342,10 @@
           <div class="project-text">
             <h3>Whats-Up-At-NASA</h3>
             <p>
-              What's Up at NASA is a React Application that
-              queries the NASA Photo of the Day API and
-              returns 25 results to the user. If the user
-              clicks on a photo, the app will return details
-              about that photo from the NASA APOD API.
+              What's Up at NASA is a React Application that queries the NASA
+              Photo of the Day API and returns 25 results to the user. If the
+              user clicks on a photo, the app will return details about that
+              photo from the NASA APOD API.
             </p>
             <div class="project-links">
               <a
@@ -393,7 +365,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <footer class="page-footer">
         <ul class="footer-list">
