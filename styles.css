@@ -9,7 +9,6 @@ body {
   padding: 5px;
   height: 100vh;
   margin: 0;
-  /* font-family: "Work Sans", sans-serif; */
 }
 
 .main-container {
@@ -33,12 +32,6 @@ p {
 
 .page-header {
   background-color: #181a23;
-  /* overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 5000; */
 }
 
 .hamburger,
@@ -73,16 +66,12 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: flex;
   flex-flow: column wrap;
   justify-content: flex-start;
   width: 100%;
 }
-
-nav li {
-}
-/* nav li:hover { */
 
 nav a {
   text-decoration: none;
@@ -353,8 +342,8 @@ li {
     gap: 5vw;
   }
   .mission-statement p {
-    font-size: 2vh;
-    max-width: 500px;
+    font-size: 1vh;
+    width: 500px;
   }
   .skills h2,
   .projects h2 {
