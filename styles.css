@@ -164,13 +164,13 @@ li {
 }
 
 .mission-statement p {
-  font-size: 2vh;
+  font-size: 3vh;
   max-width: 500px;
 }
 .navicon {
   display: block;
   color: #fdfbfa;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-top: 1rem;
 }
 
@@ -342,8 +342,8 @@ li {
     gap: 5vw;
   }
   .mission-statement p {
-    font-size: 1vh;
-    width: 500px;
+    font-size: 1.75vh;
+    max-width: 500px;
   }
   .skills h2,
   .projects h2 {
