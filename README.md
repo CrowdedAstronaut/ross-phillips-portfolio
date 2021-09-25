@@ -1,5 +1,8 @@
-## ross-phillips-portfolio ## Welcome Welcome to my portfolio GitHub! This site
-is as lightweight as it gets. It was built using semantic HTML, vanilla CSS, and
+## ross-phillips-portfolio
+
+## Welcome Welcome to my portfolio GitHub!
+
+This site is as lightweight as it gets. It was built using semantic HTML, vanilla CSS, and
 as of this commit - zero JavaScript. It was created using the mobile-first
 methodology with an equal commitment to current web accessibility standards.
 
