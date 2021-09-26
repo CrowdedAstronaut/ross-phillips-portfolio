@@ -1,1 +1,1 @@
-console.log("Hello from the Javascript page");
+// console.log("Hello from the Javascript page");
