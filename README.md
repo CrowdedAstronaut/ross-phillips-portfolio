@@ -1,6 +1,6 @@
 ## Welcome Welcome to my portfolio Github
 # About Me
-Hi! I'm Ross, <br/>
+Hi, I'm Ross! <br/>
 A dj🎧  and scuba instructor 🤿  turned software engineer. I have 15+ years experience across music and podcasting, events and sales, all underlined by my focus on users and details. I'm passionate about iOS dev, UX and A11Y. Want to talk? Send me a message - I'm always looking to collaborate on new projects!
 
 
