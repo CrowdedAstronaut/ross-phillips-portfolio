@@ -1,5 +1,12 @@
-## Welcome Welcome to my GitHub portfolio !
+## Welcome Welcome to my portfolio Github
 
+## Chrome Lighthouse Report
+ <img
+        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+        alt="css3"
+        width="40"
+        height="40"
+      />
 
 ## Technologies Used
 This site is as lightweight as it gets. It was built using semantic HTML, vanilla CSS, and
