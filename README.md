@@ -1,15 +1,18 @@
 ## Welcome Welcome to my portfolio Github
 
+# Methadology
+The goal of this site is to keep it as lightweight and accessible as possible. No fancy frameworks or SPAs here, even though I love using those technologies.
+
 ## Chrome Lighthouse Report
  <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-        alt="css3"
-        width="40"
-        height="40"
+        src="https://raw.githubusercontent.com/CrowdedAstronaut/ross-phillips-portfolio/main/images/ross-phillips-portfolio-lighthouse-desktop.png"
+        alt="chrome lighthouse report"
+        width="400"
+        height="250"
       />
 
 ## Technologies Used
-This site is as lightweight as it gets. It was built using semantic HTML, vanilla CSS, and
+This site was created using semantic HTML, vanilla CSS, and
 as of this commit - zero JavaScript. It was created using the mobile-first
 methodology with an equal commitment to current ARIA web accessibility standards.
 
