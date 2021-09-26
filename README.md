@@ -51,5 +51,5 @@ methodology with an equal commitment to current ARIA web accessibility standards
       />
 
 
-# Methadology
-The goal of this site is to keep it as lightweight and accessible as possible. No fancy frameworks or SPAs here, even though I love using those technologies.
+# Methodology
+The goal of this site is to keep it as lightweight and accessible as possible. No fancy frameworks or SPAs here, even though I love using those technologies when appropriate.
