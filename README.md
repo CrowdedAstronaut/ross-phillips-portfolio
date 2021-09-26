@@ -1,16 +1,5 @@
 ## Welcome Welcome to my portfolio Github
 
-# Methadology
-The goal of this site is to keep it as lightweight and accessible as possible. No fancy frameworks or SPAs here, even though I love using those technologies.
-
-## Chrome Lighthouse Report
- <img
-        src="https://raw.githubusercontent.com/CrowdedAstronaut/ross-phillips-portfolio/main/images/ross-phillips-portfolio-lighthouse-desktop.png"
-        alt="chrome lighthouse report"
-        width="400"
-        height="250"
-      />
-
 ## Technologies Used
 This site was created using semantic HTML, vanilla CSS, and
 as of this commit - zero JavaScript. It was created using the mobile-first
@@ -47,3 +36,16 @@ methodology with an equal commitment to current ARIA web accessibility standards
     </a>
   </p>
 </div>
+
+
+## Chrome Lighthouse Report
+ <img
+        src="https://raw.githubusercontent.com/CrowdedAstronaut/ross-phillips-portfolio/main/images/ross-phillips-portfolio-lighthouse-desktop.png"
+        alt="chrome lighthouse report"
+        width="925"
+        height="562"
+      />
+
+
+# Methadology
+The goal of this site is to keep it as lightweight and accessible as possible. No fancy frameworks or SPAs here, even though I love using those technologies.
