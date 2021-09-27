@@ -164,7 +164,7 @@ li {
 }
 
 .mission-statement p {
-  font-size: 2.2vh;
+  font-size: clamp(1rem, 2.5vw, 2rem);
   max-width: 500px;
 }
 .navicon {
@@ -286,11 +286,7 @@ li {
 
 .myButton {
   box-shadow: inset 0px 1px 0px 0px #ffffff;
-  background: linear-gradient(
-    to bottom,
-    #ededed 5%,
-    #dfdfdf 100%
-  );
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
   background-color: #ededed;
   border-radius: 6px;
   border: 1px solid #dcdcdc;
@@ -307,11 +303,7 @@ li {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .myButton:hover {
-  background: linear-gradient(
-    to bottom,
-    #dfdfdf 5%,
-    #ededed 100%
-  );
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
   background-color: #dfdfdf;
 }
 .myButton:active {
@@ -350,8 +342,6 @@ li {
     gap: 5vw;
   }
   .mission-statement p {
-    font-size: 1.75vh;
-    max-width: 500px;
   }
   .skills h2,
   .projects h2 {
