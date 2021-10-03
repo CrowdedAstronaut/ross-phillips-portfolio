@@ -350,6 +350,8 @@ li {
     gap: 5vw;
   }
   .mission-statement p {
+    width: 350px;
+    font-size: smaller;
   }
   .skills h2,
   .projects h2 {
