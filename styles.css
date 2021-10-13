@@ -353,7 +353,7 @@ li {
     width: 350px;
     font-size: smaller;
   .mission-statement h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 600;
   }
   .mission-statement h3 {
@@ -385,7 +385,7 @@ li {
     flex-direction: row;
   }
   .project-text p {
-    width: 50vw;
+    width: 500px;
   }
   .screenshot {
     max-width: 40vw;
