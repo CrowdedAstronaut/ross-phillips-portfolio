@@ -349,9 +349,18 @@ li {
     margin: auto;
     gap: 5vw;
   }
+<<<<<<< HEAD
   .mission-statement p {
     width: 350px;
     font-size: smaller;
+=======
+  .mission-statement h2 {
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .mission-statement h3 {
+    font-size: 2rem;
+>>>>>>> 5a8deff (Added font weight for large monitor)
   }
   .skills h2,
   .projects h2 {
