@@ -184,7 +184,6 @@ li {
 }
 
 .skills-wrapper {
-  /* padding: 0rem 5rem 5rem 5rem; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column: 1 / span 2;
@@ -384,12 +383,7 @@ li {
     grid-template-columns: repeat(4, 1fr);
     grid-column: 1 / span 2;
   }
-  /* .project-text p {
-    color: #181a23;
-    font-size: 2vh;
 
-    width: 80vw;
-  } */
   .project-one,
   .project-two,
   .project-three {
