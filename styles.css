@@ -322,6 +322,12 @@ li {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) {
   /* Styles */
+  .page-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
   nav {
     border-bottom: 3px solid #484847;
     border-top: 3px solid #484847;
@@ -347,11 +353,19 @@ li {
     padding: 3rem;
     max-width: 1440px;
     margin: auto;
+    margin-top: 110px;
     gap: 5vw;
   }
   .mission-statement p {
     width: 350px;
     font-size: smaller;
+  }
+  .mission-statement h2 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .mission-statement h3 {
+    font-size: 2rem;
   }
   .skills h2,
   .projects h2 {
@@ -379,7 +393,7 @@ li {
     flex-direction: row;
   }
   .project-text p {
-    width: 50vw;
+    width: 500px;
   }
   .screenshot {
     max-width: 40vw;
