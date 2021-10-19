@@ -357,8 +357,8 @@ li {
     gap: 5vw;
   }
   .mission-statement p {
-    width: 350px;
-    font-size: smaller;
+    width: 400px;
+    font-size: 0.85rem;
   }
   .mission-statement h2 {
     font-size: 3rem;
@@ -366,6 +366,9 @@ li {
   }
   .mission-statement h3 {
     font-size: 2rem;
+  }
+  .logo-container {
+    width: 500px;
   }
   .skills h2,
   .projects h2 {
@@ -394,6 +397,8 @@ li {
   }
   .project-text p {
     width: 500px;
+    font-size: 1rem;
+    font-weight: 200;
   }
   .screenshot {
     max-width: 40vw;
