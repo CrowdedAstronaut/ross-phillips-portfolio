@@ -186,7 +186,7 @@ li {
 .skills-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column: 1 / span 2;
+  grid-column: 1 / span 3;
 }
 
 .skill-container {
