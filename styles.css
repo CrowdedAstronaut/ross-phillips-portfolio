@@ -369,9 +369,8 @@ li {
   .logo-container {
     width: 500px;
   }
-  .skills h2,
-  .projects h2 {
-    padding-left: 3rem;
+  .section__title {
+    padding-left: 4rem;
     font-size: 2rem;
   }
   ul.page-links {
