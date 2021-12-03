@@ -102,8 +102,7 @@ a:hover {
   margin: 0;
 }
 
-.skills h2,
-.projects h2 {
+.section__title {
   padding-left: 0.5rem;
   font-size: 2rem;
 }
@@ -370,7 +369,7 @@ li {
     width: 500px;
   }
   .section__title {
-    padding-left: 4rem;
+    padding-left: 6rem;
     font-size: 2rem;
   }
   ul.page-links {
