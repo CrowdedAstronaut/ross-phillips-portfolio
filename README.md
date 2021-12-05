@@ -27,7 +27,7 @@ methodology with an equal commitment to current ARIA web accessibility standards
         height="40"
       />
     </a>
-    <a
+<!--     <a
       href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       target="_blank"
     >
@@ -37,7 +37,7 @@ methodology with an equal commitment to current ARIA web accessibility standards
         width="40"
         height="40"
       />
-    </a>
+    </a> -->
   </p>
 </div>
 
