@@ -234,7 +234,8 @@ li {
 
 .project-one,
 .project-two,
-.project-three {
+.project-three,
+.project-four {
   display: flex;
   /* padding: 2vh; */
   margin-bottom: 2vh;
@@ -245,7 +246,8 @@ li {
 }
 
 .project-one,
-.project-three {
+.project-three,
+.project-four {
   flex-direction: column;
 }
 
@@ -388,7 +390,8 @@ li {
 
   .project-one,
   .project-two,
-  .project-three {
+  .project-three,
+  .project-four {
     flex-direction: row;
   }
   .project-text p {
