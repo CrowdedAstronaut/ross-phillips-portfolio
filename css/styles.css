@@ -13352,9 +13352,12 @@ li {
 
   .project-one,
 .project-two,
-.project-three,
-.project-four {
+.project-three {
     flex-direction: row;
+  }
+
+  .project-four {
+    flex-direction: row-reverse;
   }
 
   .project-text p {
