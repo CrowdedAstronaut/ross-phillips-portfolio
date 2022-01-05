@@ -72,7 +72,7 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
     <tr>
       <td>Deployment</td>
       <td>
-          <img alt="Github" src="https://img.shields.io/badge/Github?style=for-the-badge&logo=github&logoColor=white"/>
+          <img alt="Github" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
       </td>
     </tr>
   </tbody>
