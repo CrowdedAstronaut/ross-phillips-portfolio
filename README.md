@@ -33,12 +33,11 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
 
 ### Mobile Preview
 
-![Mobile Gif](https://raw.githubusercontent.com/CrowdedAstronaut/daily-hud/main/src/assets/gifs/daily-hud.gif)
+![Mobile Gif](https://raw.githubusercontent.com/CrowdedAstronaut/daily-hud/main/src/assets/images/ross-phillips-portfolio-mobile.png)
 
 ### Desktop Preview
 
-![Desktop Preview](https://raw.githubusercontent.com/CrowdedAstronaut/daily-hud/main/src/assets/images/daily-HUD-desktop-home-screen.png)
-(The Desktop view is in development.)
+![Desktop Preview](https://raw.githubusercontent.com/CrowdedAstronaut/daily-hud/main/src/assets/images/ross-phillips-portfolio-desktop.png)
 </br>
 
 # Technologies <a name="technologies"></a>
