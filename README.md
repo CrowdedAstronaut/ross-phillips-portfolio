@@ -41,8 +41,6 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
 (The Desktop view is in development.)
 </br>
 
-# User Stories <a name="userstories"></a>
-
 # Technologies <a name="technologies"></a>
 
 <table>
