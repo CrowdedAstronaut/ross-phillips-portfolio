@@ -5,21 +5,26 @@
 - [About this project](#about)
 - [User Stories](#userstories)
 - [Technologies](#technologies)
-- [Links](#links)
-- [Installation](#install)
 
 <hr />
 <br />
 
-# About me / This Project <a name="about"></a>
+# About me <a name="about"></a>
 
 Hi, I'm Ross! <br/>
-A dj🎧  and scuba instructor 🤿  turned software engineer. I have 15+ years experience across music and podcasting, events and sales, all underlined by my focus on users and details. I'm passionate about iOS dev, UX and A11Y. Want to talk? Send me a message - I'm always looking to collaborate on new projects! This site was created using semantic HTML, vanilla CSS, and
+
+A dj🎧 and scuba instructor 🤿 turned software engineer. I have 15+ years experience across music and podcasting, events and sales, all underlined by my focus on users and details. I'm passionate about iOS dev, UX and A11Y. Want to talk? Send me a message - I'm always looking to collaborate on new projects!
+
+## About This Project
+
+This site was created using semantic HTML, vanilla CSS, and
 as of this commit - zero JavaScript. It was created using the mobile-first
 methodology with an equal commitment to current ARIA web accessibility standards.
 
-## Focus
+### Focus
+
 The goal of this site is to keep it as lightweight and accessible as possible. No fancy frameworks or SPAs here, even though I love using those technologies when appropriate. This site was built using:
+
 - Mobile First Methodology
 - Pixel Perfect Design Implementation
 - Semantic naming conventions
@@ -38,7 +43,6 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
 
 # User Stories <a name="userstories"></a>
 
-
 # Technologies <a name="technologies"></a>
 
 <table>
@@ -50,7 +54,7 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
         <img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
       </td>
     </tr>
-   
+   <tr>
       <td>Design</td>
       <td>
         <img alt="Sketch" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
@@ -71,7 +75,7 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
     <tr>
       <td>Deployment</td>
       <td>
-          <img alt="Netlify" src="https://img.shields.io/badge/Netlify-100000?style=for-the-badge&logo=netlify&logoColor=white"/>
+          <img alt="Github" src="https://img.shields.io/badge/Github?style=for-the-badge&logo=github&logoColor=white"/>
       </td>
     </tr>
   </tbody>
@@ -80,59 +84,11 @@ The goal of this site is to keep it as lightweight and accessible as possible. N
 <hr />
 <br />
 
-
-
-### Links
-
-- GitHub URL: [Github](https://github.com/CrowdedAstronaut/daily-hud)
-- Live Site URL: [Live Site](https://daily-hud.netlify.app/)
-
-# About Me
-
-
-
-
-
-<div>
-  <p>
-    <a href="https://www.w3schools.com/css/" target="_blank">
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-        alt="css3"
-        width="40"
-        height="40"
-      />
-    </a>
-    <a href="https://www.w3.org/html/" target="_blank">
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-        alt="html5"
-        width="40"
-        height="40"
-      />
-    </a>
-<!--     <a
-      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-      target="_blank"
-    >
-      <img
-        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-        alt="javascript"
-        width="40"
-        height="40"
-      />
-    </a> -->
-  </p>
-</div>
-
-
 ## Chrome Lighthouse Report
- <img
+
+<img
         src="https://raw.githubusercontent.com/CrowdedAstronaut/ross-phillips-portfolio/main/images/ross-phillips-portfolio-lighthouse-desktop.png"
         alt="chrome lighthouse report"
         width="925"
         height="562"
       />
-
-
-
